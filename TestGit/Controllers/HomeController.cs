@@ -16,6 +16,7 @@ namespace TestGit.Controllers
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
+            string dani;
 
             return View();
         }
